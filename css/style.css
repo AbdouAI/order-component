@@ -146,7 +146,7 @@ body{
     color: hsl(224, 16%, 33%);
 }
 
-@media screen and (min-width:350px) {
+@media screen and (min-width:450px) {
     body{
         min-width: 100vh;
         min-height: 100vh;
