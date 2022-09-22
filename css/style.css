@@ -22,7 +22,7 @@ body{
     background-color: white;
     display: flex;
     flex-direction: column;
-    max-width: 85%;
+    min-width: 272px;
     height: 80%;
     border-radius: 20px;
     box-shadow: 0px 15px 30px -20px rgb(172, 171, 171);
@@ -61,6 +61,7 @@ body{
 }
 
 .annual-plan{
+    width: 100%;
     background-color: hsl(225, 100%, 98%);
     border-radius: 10px;
     margin-top: 30px;
@@ -68,8 +69,9 @@ body{
     align-items: center;
 }
 
+
 .plan-price{
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 .plan{
@@ -87,7 +89,7 @@ body{
 
 .annual-plan-link:link ,.annual-plan-link:visited{
     width: fit-content;
-    margin-left: 15%;
+    margin-left: 25px;
     font-weight: 900;
     font-size: 12px;
     color: hsl(245, 75%, 52%);
@@ -149,7 +151,7 @@ body{
     }
 
     .card{
-       max-width: 350px;
+       width: 350px;
     }
 
     .title{
@@ -172,11 +174,8 @@ body{
         margin-left: 10px;
     }
 
-    .plan-price{
-        margin-left: 14px;
-    }
-
     .annual-plan-link:link ,.annual-plan-link:visited{
         margin-left: 65px;
     }
+
 }
