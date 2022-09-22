@@ -85,12 +85,16 @@ body{
     color: hsl(224, 23%, 55%);
 }
 
-.annual-plan-link{
+.annual-plan-link:link ,.annual-plan-link:visited{
     width: fit-content;
     margin-left: 30px;
     font-weight: 900;
     font-size: 12px;
     color: hsl(245, 75%, 52%);
+}
+
+.annual-plan-link:active{
+    color: hsl(245, 81%, 17%);
 }
 
 .btn-pay:link ,.btn-pay:visited{
@@ -118,7 +122,7 @@ body{
 }
 
 
-.btn-cancel{
+.btn-cancel:link, .btn-cancel:visited{
     width: fit-content;
     display: block;
     margin: 0px auto;
@@ -128,7 +132,10 @@ body{
     color: hsl(224, 23%, 55%);
     text-decoration: none;
     border-radius: 10px;
+}
 
+.btn-cancel:active{
+    color: hsl(224, 16%, 33%);
 }
 
 @media screen and (min-width:450px) {
@@ -169,7 +176,7 @@ body{
         margin-left: 14px;
     }
 
-    .annual-plan-link{
+    .annual-plan-link:link ,.annual-plan-link:visited{
         margin-left: 65px;
     }
 }
