@@ -87,7 +87,7 @@ body{
 
 .annual-plan-link:link ,.annual-plan-link:visited{
     width: fit-content;
-    margin-left: 30px;
+    margin-left: 15%;
     font-weight: 900;
     font-size: 12px;
     color: hsl(245, 75%, 52%);
